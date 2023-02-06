@@ -1,0 +1,11 @@
+	
+		<top-box class='center'>
+			<svg class='svg-icon back' data-event="back" fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(.9), translate(0 10)">
+				<use href="#back" />
+			</svg>
+			<svg class='cclogo' fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(.7), translate(20 5)">
+				<use href="#cclogo" />
+			</svg>
+		</top-box>
+		<h1 data-slot='trivia'></h1>
+		<country-box class='center'></country-box>

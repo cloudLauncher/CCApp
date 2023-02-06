@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g>
+    <g>
+      <path d="M53.6,92.5a31.5,31.5,0,0,1-4.4-.3A42.1,42.1,0,0,1,11.8,42.9c3.1-17-1.5-28.7-5.3-34.9l28.1,4.4.7-.3A41.9,41.9,0,0,1,53.3,8a46.3,46.3,0,0,1,7.4.7A42.3,42.3,0,0,1,94.9,57.6C91.4,77.5,73.7,92.5,53.6,92.5Z" style="fill: #fff"/>
+      <path d="M53.3,10.5a39.3,39.3,0,0,1,6.9.6A39.8,39.8,0,0,1,53.6,90a27.3,27.3,0,0,1-4.1-.3h-.1A39.3,39.3,0,0,1,21.7,74.2a39.9,39.9,0,0,1-7.5-30.8c2.7-14.3,0-25.1-3.2-32.2l22.4,3.6L35,15l1.4-.6a39.5,39.5,0,0,1,16.9-3.9M.9,4.6s13,12.9,8.4,37.9S23.6,92.4,48.9,94.7a37.1,37.1,0,0,0,4.7.3c21.3,0,40.1-16.1,43.7-37A44.7,44.7,0,0,0,61.1,6.2a51.4,51.4,0,0,0-7.8-.7A45.2,45.2,0,0,0,34.2,9.8L.9,4.6Z" style="fill: #5ab99b"/>
+    </g>
+    <g>
+      <g>
+        <path d="M54.2,21.8a2.6,2.6,0,0,0-1.3.8h0A1.8,1.8,0,0,0,54.2,21.8Z" style="fill: none"/>
+        <path d="M52.6,23.2h0a1.3,1.3,0,0,0-.1.6,1.9,1.9,0,0,0,1.9,2.1,1.8,1.8,0,0,0,1.6-.5l.2-.3a2.1,2.1,0,0,0-1.3-3.3A2.4,2.4,0,0,1,52.6,23.2Z" style="fill: none"/>
+        <path d="M54.5,21.1a1.7,1.7,0,1,0-3,.9l.6.4h.1A2.6,2.6,0,0,1,54.5,21.1Z" style="fill: none"/>
+        <path d="M54.2,21.8h0a3.6,3.6,0,0,0,.3-.7h0a2.6,2.6,0,0,0-2.3,1.3h-.1l.8.2h0A2.6,2.6,0,0,1,54.2,21.8Z" style="fill: #5ab99b"/>
+        <path d="M57.3,24a2.8,2.8,0,0,0-2.2-2.9h0l-.2.7h0a2.1,2.1,0,0,1,1.3,3.3l-.2.3a1.8,1.8,0,0,1-1.6.5,1.9,1.9,0,0,1-1.9-2.1,1.3,1.3,0,0,1,.1-.6h0l-.7-.2c-.1.2-.1.5-.2.7a2.9,2.9,0,0,0,2.7,3,2.4,2.4,0,0,0,1.6-.5h2.1A2.7,2.7,0,0,1,57.3,24Z" style="fill: #5ab99b"/>
+        <path d="M54.2,21.8a1.8,1.8,0,0,1-1.3.8,3.3,3.3,0,0,0-.3.6,2.4,2.4,0,0,0,2.3-1.4h-.7Z" style="fill: #e65014"/>
+        <path d="M52.1,22.4l-.6-.4a1.7,1.7,0,1,1,3-.9h.6a2.3,2.3,0,0,0-4.5-1c-.5,1.3-1.3,1.5-1.3,1.5l1.6.5a1.2,1.2,0,0,0,.7.7l.3.2h0C52,22.8,52,22.6,52.1,22.4Z" style="fill: #e65014"/>
+        <path d="M52.6,23.2a3.3,3.3,0,0,1,.3-.6l-.8-.2c-.1.2-.1.4-.2.5h0l.7.2Z" style="fill: #e65014"/>
+        <path d="M54.5,21.1h0a3.6,3.6,0,0,1-.3.7h.7l.2-.7h-.6Z" style="fill: #5ab99b"/>
+      </g>
+      <rect x="40.8" y="38.8" width="25.6" height="44.85" rx="3.4" transform="matrix(1, 0, 0, 1, 0.21, -0.18)" style="fill: #fff;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 1.41713431656184px"/>
+      <g>
+        <g>
+          <rect x="47.8" y="35.4" width="11.8" height="4.81" transform="translate(15.6 91.4) rotate(-89.8)" style="fill: #5ab99b"/>
+          <path d="M51.7,32.4h3.9V43.3H51.7V32.4m-.9-.9V44.2h5.7V31.5H50.8Z" style="fill: #fff"/>
+        </g>
+        <polygon points="60.9 42.3 46.5 42 53.6 49.3 60.9 42.3" style="fill: #5ab99b"/>
+      </g>
+      <rect x="47.8" y="17.2" width="11.9" height="11.91" rx="3.4" transform="translate(0.1 -0.2) rotate(0.2)" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.987306257631581px"/>
+      <g>
+        <rect x="44.8" y="68.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="51.2" y="68.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="57.7" y="68.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="44.8" y="61.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="51.3" y="61.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="57.7" y="61.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="44.9" y="54.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b"/>
+        <rect x="51.3" y="54.5" width="4.7" height="4.67" rx="1.3" transform="matrix(1, 0, 0, 1, 0.19, -0.18)" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.787153363227844px"/>
+      </g>
+      <g>
+        <circle cx="53.8" cy="78.9" r="1.4" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.472378105520613px"/>
+        <rect x="46" y="77.8" width="2.1" height="2.15" transform="translate(0.3 -0.2) rotate(0.2)" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.472378105520613px"/>
+        <polygon points="61.1 80.2 59.2 78.9 61.1 77.6 61.1 80.2" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.472378105520613px"/>
+      </g>
+    </g>
+  </g>
+</svg>
