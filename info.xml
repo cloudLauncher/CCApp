@@ -1,0 +1,124 @@
+<top-box class='center'>
+		<svg class='svg-icon back' data-event="back" fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(1), translate(0 10)">
+			<use href="#back" />
+		</svg>
+
+		<svg class= 'btn-light_mode hidden svg-icon toggle' data-event="toggleDark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.8 46.5">
+		<g>
+			<g>
+			<path d="M21.3,37.9l-.4-.2a10.1,10.1,0,0,1-5-4.1,10.7,10.7,0,0,1,3.3-14.7,11.1,11.1,0,0,1,5.7-1.6,10.6,10.6,0,0,1,8.5,4.2,10.2,10.2,0,0,1,1.9,8.3,10.6,10.6,0,0,1-4.7,7.1,13.6,13.6,0,0,0-5.7,6.4Z" style="fill: #fff"/>
+			<path d="M24.9,18.6a9.1,9.1,0,0,1,7.4,3.7h.1A9.3,9.3,0,0,1,34,29.6a9.1,9.1,0,0,1-4.1,6.2,15.6,15.6,0,0,0-5.2,5l-2.1-3.3-.5-.7-.7-.3A9.7,9.7,0,0,1,17,32.9,9.5,9.5,0,0,1,19.9,20a9.7,9.7,0,0,1,5-1.4m0-2.6a11.9,11.9,0,0,0-4.5,22.9l5,7.6s.2-4.9,5.9-8.5a12,12,0,0,0,3.1-17.3A11.8,11.8,0,0,0,24.9,16Z" style="fill: #fff"/>
+			</g>
+			<line x1="24.9" y1="8.1" x2="24.9" y2="2" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="35.1" y1="11" x2="38.5" y2="5.8" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="42.2" y1="19" x2="47.8" y2="16.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="14.6" y1="11" x2="11.3" y2="5.8" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="7.6" y1="19" x2="2" y2="16.5" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+		</g>
+		</svg>
+
+		<svg class= 'btn-dark_mode visible svg-icon toggle' data-event="toggleDark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.8 47.5">
+		<g>
+			<path d="M18.4,17a12.6,12.6,0,0,0-3.9,17.5,12.5,12.5,0,0,0,5.9,5l5.3,8s.2-5.3,6.3-9.1A12.7,12.7,0,1,0,18.4,17Z" style="fill: #939598"/>
+			<line x1="24.9" y1="8.1" x2="24.9" y2="2" style="fill: none;stroke: #939598;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="35.1" y1="11" x2="38.5" y2="5.8" style="fill: none;stroke: #939598;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="42.2" y1="19" x2="47.8" y2="16.5" style="fill: none;stroke: #939598;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="14.6" y1="11" x2="11.3" y2="5.8" style="fill: none;stroke: #939598;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+			<line x1="7.6" y1="19" x2="2" y2="16.5" style="fill: none;stroke: #939598;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+		</g>
+		</svg>
+
+
+
+		<svg class='cclogo' fill="none" xmlns="http://www.w3.org/2000/svg" transform="scale(1), translate(0 5)">
+			<use href="#cclogo" />
+		</svg>
+	</top-box>
+
+	<alt-box class='center'>
+	<div class="info">
+		<svg class='svg-icon' data-page="players" style="width:auto; height:110px; margin-top:3rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.25 102.36">
+				<path d="m102.4 53.799c1.356-25.837-16.75-48.248-41.467-52.995-41.64-6.338-55.825 26.658-58.318 34.177-1.4436 4.353-2.2988 8.88-2.5429 13.461-1.458 28.209 20.276 52.35 48.485 53.842 10.598 0.563 21.11-2.186 30.074-7.866l38.619 1.356s-16.58-12.952-14.851-41.975z" fill="#50bfa0" style="fill:#50bfa0"/>
+				<path d="m42.885 30.15c-0.49201-0.0274-0.99159 0.0775-1.4434 0.31641-0.90354 0.47805-1.4688 1.4154-1.4688 2.4375v34.186c0 1.0222 0.56521 1.9594 1.4688 2.4375 0.90354 0.47783 1.9969 0.41689 2.8418-0.15821l25.107-17.092c0.75482-0.51377 1.207-1.3663 1.207-2.2793 0-0.91297-0.45244-1.7675-1.207-2.2812l-25.107-17.092c-0.42246-0.28766-0.90643-0.44726-1.3984-0.47461z" style="fill:#fff;stroke-width:.90722"/>	
+		</svg>
+		<p class="info__btn-txt" data-islot = "0" >PLAY</p>
+
+			<svg class='svg-icon' data-event="rules"  style="width:auto; height:110px; margin-top:3rem;" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M21.4143 6.13147L21.4139 6.13149C9.98342 6.7418 1.15002 16.6256 1.74198 28.2014C1.84127 30.0802 2.18879 31.9371 2.77522 33.7226C3.27424 35.2419 4.98288 39.4302 8.67284 42.8818C12.2974 46.2722 17.9048 49.0282 26.4601 47.7218C36.4622 45.7677 43.8046 36.5958 43.2564 26.0091C42.8632 19.3255 44.5587 14.4337 46.397 11.1902C46.8448 10.4001 47.2998 9.70987 47.7331 9.1169L34.4688 9.5872L34.0014 9.60377L33.6074 9.35177C29.9712 7.02601 25.7099 5.90115 21.4143 6.13147Z" fill="white" stroke="#C8C8C8" stroke-width="3" />
+				<path d="M21.213 30.1921C21.213 29.4221 21.312 28.7731 21.51 28.2451C21.73 27.6951 22.005 27.2221 22.335 26.8261C22.665 26.4081 23.006 26.0341 23.358 25.7041C23.732 25.3521 24.084 25.0111 24.414 24.6811C24.744 24.3291 25.008 23.9331 25.206 23.4931C25.426 23.0531 25.536 22.5471 25.536 21.9751C25.536 21.5131 25.459 21.1281 25.305 20.8201C25.151 20.4901 24.931 20.2261 24.645 20.0281C24.381 19.8081 24.062 19.6541 23.688 19.5661C23.336 19.4561 22.962 19.4011 22.566 19.4011C21.972 19.4011 21.411 19.5001 20.883 19.6981C20.377 19.8961 19.904 20.1931 19.464 20.5891C19.244 20.8751 19.09 21.0951 19.002 21.2491C18.936 21.3811 18.914 21.5351 18.936 21.7111L18.738 21.9751L18.507 21.7771L16.197 20.0611C16.703 19.3131 17.264 18.6751 17.88 18.1471C18.518 17.5971 19.233 17.1791 20.025 16.8931C20.839 16.5851 21.752 16.4311 22.764 16.4311C24.018 16.4311 25.107 16.6731 26.031 17.1571C26.977 17.6411 27.703 18.3011 28.209 19.1371C28.737 19.9511 29.001 20.8641 29.001 21.8761C29.001 22.6901 28.891 23.3941 28.671 23.9881C28.451 24.5601 28.165 25.0551 27.813 25.4731C27.461 25.8691 27.087 26.2321 26.691 26.5621C26.317 26.8921 25.954 27.2331 25.602 27.5851C25.272 27.9151 24.997 28.2891 24.777 28.7071C24.557 29.1031 24.447 29.5981 24.447 30.1921V31.8091H21.213V30.1921ZM22.896 38.9041C22.192 38.9041 21.598 38.6621 21.114 38.1781C20.63 37.6941 20.388 37.1111 20.388 36.4291C20.388 35.7471 20.63 35.1641 21.114 34.6801C21.598 34.1961 22.192 33.9541 22.896 33.9541C23.578 33.9541 24.161 34.1961 24.645 34.6801C25.129 35.1641 25.371 35.7471 25.371 36.4291C25.371 37.1111 25.129 37.6941 24.645 38.1781C24.161 38.6621 23.578 38.9041 22.896 38.9041Z" fill="#F15A22" />
+			</svg>
+			<p class="info__btn-txt" data-islot = "0">RULES</p>
+			<svg class='svg-icon'data-event="refresh" style="width:auto; height:100px;"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.8 99.5">
+				<g>
+					<path d="M106.1,58.8a49.2,49.2,0,0,0-69.5-53L0,0S14.3,14.3,9.2,41.7s15.7,55,43.6,57.5C78.3,102,101.8,83.4,106.1,58.8Z" style="fill: #5ab99b" />
+					<g>
+						<path d="M52.1,73.9a28,28,0,0,1-6.2-3.2A21.7,21.7,0,0,1,71.8,35.9l1.2,1" style="fill: none;stroke: #fff;stroke-miterlimit: 9.97795343399048;stroke-width: 7.098689180321879px" />
+						<polygon points="82.3 28 61.3 43.2 79.4 46.1 82.3 28" style="fill: #fff" />
+					</g>
+				</g>
+			</svg>
+			<p class="info__btn-txt" data-islot = "0">REFRESH<span class="info__description">Restart all the scores. Attention, it’s not undoable</p>
+			
+			<svg class='svg-icon' data-event="update"  version="1.1" viewBox="0 0 28.27 26.321" xmlns="http://www.w3.org/2000/svg">
+			<path d="m28.073 15.558a13.018 13.018 0 0 0-18.389-14.023l-9.6838-1.5346s3.7835 3.7835 2.4342 11.033c-1.3494 7.2496 4.154 14.552 11.536 15.214 6.7469 0.74083 12.965-4.1804 14.102-10.689z" style="fill:#5ab99b;stroke-width:.26458"/>
+			<path d="m20.557 18.758-1.3921-1.3111c-0.87933 0.9292-2.0684 1.4635-3.3483 1.4991-2.6384 0.0735-4.8429-2.0116-4.9163-4.65l0.95663-0.0266-1.9665-1.86-1.86 1.9665 0.95663-0.0266c0.10279 3.6921 3.1907 6.6128 6.8829 6.51 1.7918-0.0499 3.456-0.79558 4.6872-2.1012z" style="fill:#fff;stroke-width:.4785"/>
+			<path d="m21.477 15.908 1.86-1.9665-0.95663 0.0266c-0.10279-3.6921-3.1907-6.6128-6.8829-6.51-1.7918 0.0499-3.456 0.79558-4.6872 2.1012l1.3921 1.3111c0.87933-0.9292 2.0684-1.4635 3.3483-1.4991 2.6384-0.0735 4.8429 2.0116 4.9163 4.65l-0.95663 0.0266z" style="fill:#fff;stroke-width:.4785"/>
+			</svg>
+			<p class="info__btn-txt">UPDATE APP<span class="info__description">Check for App updates...</p>
+			
+			<svg class='svg-icon' data-event="install" style="width:auto; height:120px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+				<g>
+					<g>
+						<path d="M53.6,92.5a31.5,31.5,0,0,1-4.4-.3A42.1,42.1,0,0,1,11.8,42.9c3.1-17-1.5-28.7-5.3-34.9l28.1,4.4.7-.3A41.9,41.9,0,0,1,53.3,8a46.3,46.3,0,0,1,7.4.7A42.3,42.3,0,0,1,94.9,57.6C91.4,77.5,73.7,92.5,53.6,92.5Z" style="fill: #fff" />
+						<path d="M53.3,10.5a39.3,39.3,0,0,1,6.9.6A39.8,39.8,0,0,1,53.6,90a27.3,27.3,0,0,1-4.1-.3h-.1A39.3,39.3,0,0,1,21.7,74.2a39.9,39.9,0,0,1-7.5-30.8c2.7-14.3,0-25.1-3.2-32.2l22.4,3.6L35,15l1.4-.6a39.5,39.5,0,0,1,16.9-3.9M.9,4.6s13,12.9,8.4,37.9S23.6,92.4,48.9,94.7a37.1,37.1,0,0,0,4.7.3c21.3,0,40.1-16.1,43.7-37A44.7,44.7,0,0,0,61.1,6.2a51.4,51.4,0,0,0-7.8-.7A45.2,45.2,0,0,0,34.2,9.8L.9,4.6Z" style="fill: #5ab99b" />
+					</g>
+					<g>
+						<g>
+							<path d="M54.2,21.8a2.6,2.6,0,0,0-1.3.8h0A1.8,1.8,0,0,0,54.2,21.8Z" style="fill: none" />
+							<path d="M52.6,23.2h0a1.3,1.3,0,0,0-.1.6,1.9,1.9,0,0,0,1.9,2.1,1.8,1.8,0,0,0,1.6-.5l.2-.3a2.1,2.1,0,0,0-1.3-3.3A2.4,2.4,0,0,1,52.6,23.2Z" style="fill: none" />
+							<path d="M54.5,21.1a1.7,1.7,0,1,0-3,.9l.6.4h.1A2.6,2.6,0,0,1,54.5,21.1Z" style="fill: none" />
+							<path d="M54.2,21.8h0a3.6,3.6,0,0,0,.3-.7h0a2.6,2.6,0,0,0-2.3,1.3h-.1l.8.2h0A2.6,2.6,0,0,1,54.2,21.8Z" style="fill: #5ab99b" />
+							<path d="M57.3,24a2.8,2.8,0,0,0-2.2-2.9h0l-.2.7h0a2.1,2.1,0,0,1,1.3,3.3l-.2.3a1.8,1.8,0,0,1-1.6.5,1.9,1.9,0,0,1-1.9-2.1,1.3,1.3,0,0,1,.1-.6h0l-.7-.2c-.1.2-.1.5-.2.7a2.9,2.9,0,0,0,2.7,3,2.4,2.4,0,0,0,1.6-.5h2.1A2.7,2.7,0,0,1,57.3,24Z" style="fill: #5ab99b" />
+							<path d="M54.2,21.8a1.8,1.8,0,0,1-1.3.8,3.3,3.3,0,0,0-.3.6,2.4,2.4,0,0,0,2.3-1.4h-.7Z" style="fill: #e65014" />
+							<path d="M52.1,22.4l-.6-.4a1.7,1.7,0,1,1,3-.9h.6a2.3,2.3,0,0,0-4.5-1c-.5,1.3-1.3,1.5-1.3,1.5l1.6.5a1.2,1.2,0,0,0,.7.7l.3.2h0C52,22.8,52,22.6,52.1,22.4Z" style="fill: #e65014" />
+							<path d="M52.6,23.2a3.3,3.3,0,0,1,.3-.6l-.8-.2c-.1.2-.1.4-.2.5h0l.7.2Z" style="fill: #e65014" />
+							<path d="M54.5,21.1h0a3.6,3.6,0,0,1-.3.7h.7l.2-.7h-.6Z" style="fill: #5ab99b" />
+						</g>
+						<rect x="40.8" y="38.8" width="25.6" height="44.85" rx="3.4" transform="matrix(1, 0, 0, 1, 0.21, -0.18)" style="fill: #fff;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 1.41713431656184px" />
+						<g>
+							<g>
+								<rect x="47.8" y="35.4" width="11.8" height="4.81" transform="translate(15.6 91.4) rotate(-89.8)" style="fill: #5ab99b" />
+								<path d="M51.7,32.4h3.9V43.3H51.7V32.4m-.9-.9V44.2h5.7V31.5H50.8Z" style="fill: #fff" />
+							</g>
+							<polygon points="60.9 42.3 46.5 42 53.6 49.3 60.9 42.3" style="fill: #5ab99b" />
+						</g>
+						<rect x="47.8" y="17.2" width="11.9" height="11.91" rx="3.4" transform="translate(0.1 -0.2) rotate(0.2)" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.987306257631581px" />
+						<g>
+							<rect x="44.8" y="68.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="51.2" y="68.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="57.7" y="68.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="44.8" y="61.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="51.3" y="61.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="57.7" y="61.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="44.9" y="54.5" width="4.7" height="4.67" rx="1.3" transform="translate(0.2 -0.2) rotate(0.2)" style="fill: #5ab99b" />
+							<rect x="51.3" y="54.5" width="4.7" height="4.67" rx="1.3" transform="matrix(1, 0, 0, 1, 0.19, -0.18)" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.787153363227844px" />
+						</g>
+						<g>
+							<circle cx="53.8" cy="78.9" r="1.4" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.472378105520613px" />
+							<rect x="46" y="77.8" width="2.1" height="2.15" transform="translate(0.3 -0.2) rotate(0.2)" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.472378105520613px" />
+							<polygon points="61.1 80.2 59.2 78.9 61.1 77.6 61.1 80.2" style="fill: none;stroke: #5ab99b;stroke-miterlimit: 10;stroke-width: 0.472378105520613px" />
+						</g>
+					</g>
+				</g>
+			</svg>
+			
+			<p class="info__btn-txt">INSTALL<br>( 2Mb )<br><span class="info__description">Install the App on your phone, computer or other device and play the game offline, anytime!</span></p>
+			<div class="info__game">
+				<p>This App was<br>brought to you by</p>
+				<div class="info__logos">
+					<img src="barra_logos-3x3.png" alt="">
+				</div>
+				<p>and developed by<br>Sugodesign with the<br>collaboration of Steve Mills</p>
+			</div>
+		</div>
+	</alt-box>
