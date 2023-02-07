@@ -2,12 +2,12 @@
 import { translate } from "./translate.js";
 window.onpopstate = navigate;
 window.onload = navigate;
-window.onbeforeinstallprompt = appInstaller
 navigator.serviceWorker.onmessage = error
 
 let
-	lang = "eng",
 	player,
+	lang = "eng",
+	deferredInstall,
 	abrs = ['al', 'cv', 'che', 'ch', 'eg', 'fr', 'ge', 'gh', 'gr', 'ir', 'it', 'pl', 'pt', 'sy', 'uk'],
 	pages = {
 		"lang": "lang-page",
@@ -22,6 +22,7 @@ let
 		"404": "404-page"
 	}
 
+window.onbeforeinstallprompt = function (ev) { ev.preventDefault(); deferredInstall = ev }
 
 Array.prototype.shuffle = function () {
 	let input = this;
@@ -37,7 +38,7 @@ Array.prototype.shuffle = function () {
 
 function error() { return console.log('error fetching') }
 
-function appInstaller(ev) { ev.preventDefault(); window.deferredInstall = ev }
+
 
 async function navigate() {
 	let path = window.location.pathname.split('/').pop()
@@ -114,7 +115,7 @@ class infoPage extends baseElement {
 	rules() { window.open(`https://culturecrossover.eu/wp-content/uploads/2022/10/Rules_${lang}.pdf`) }
 
 	install() {
-		if (window.deferredInstall) return window.deferredInstall.prompt();
+		if (deferredInstall) return deferredInstall.prompt();
 		else window.open("A2HS_IOS.png")
 	}
 
