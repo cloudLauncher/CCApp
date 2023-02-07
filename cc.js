@@ -1,88 +1,26 @@
 // v10 - 09-01-2023
+import { translate } from "./translate.js";
+window.onpopstate = navigate;
+window.onload = navigate;
+window.onbeforeinstallprompt = appInstaller
+navigator.serviceWorker.onmessage = error
 
-const origin = ""//"https://culturecrossover.eu";
-let lang = "eng";
-let appReady = false;
-
-let gameNumber = 'game';
-let player;
-
-const pages = {
-	//"": "index.html", // changed for testing
-	"lang": "lang-page",
-	"players": "player-page",
-	"scores": "score-page",
-	"rules": "rules-page",
-	"404": "404-page",
-	"fortune": "fortune-page",
-	"dice": "dice-page",
-	"trivia": "trivia-page",
-	"culture": "culture-page"
-}
-
-const abrs = ['al', 'cv', 'che', 'ch', 'eg', 'fr', 'ge', 'gh', 'gr', 'ir', 'it', 'pl', 'pt', 'sy', 'uk']
-
-
-const translate = {
-	eng: {
-		players: "Players",
-		fortune: "Fortune",
-		culture: "Culture",
-		trivia: "Trivia",
-		countries: ["Albania", "Cape verde", "Chechnya", "China", "Egypt", "France", "Germany", "Ghana", "Greece", "Ireland", "Italy", "Poland", "Portugal", "Syria", "Ukraine"],
-		info: ["RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
-	},
-	pol: {
-		players: "Osoby grające",
-		fortune: "Karta losu",
-		culture: "Karty kultury",
-		trivia: "Karty ciekawostek",
-		countries: ["Albania", "Republika Zielonego Przylądka", "Czeczenia", "Chiny", "Egipt", "Francja", "Niemcy", "Ghana", "Grecja", "Irlandia", "Włochy", "Polska", "Portugalia", "Syria", "Ukraina"],
-		info: ["POL-RULES", "POL-REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
-	},
-	ger: {
-		players: "Spieler*innen",
-		fortune: "Glück",
-		culture: "Kultur",
-		trivia: "Wissen",
-		countries: ["Albanien", "Kap Verde", "Tschetschenien", "China", "Ägypten", "Frankreich", "Deutschland", "Ghana", "Griechenland", "Irland", "Italien", "Polen", "Portugal", "Syrien", "Ukraine"],
-		info: ["RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
-	},
-	ita: {
-		players: "Giocatoris",
-		fortune: "Fortuna",
-		culture: "Cultura",
-		trivia: "Curiosità",
-		countries: ["Albania", "Cape verde", "Chechnya", "China", "Egypt", "France", "Germany", "Ghana", "Greece", "Ireland", "Italy", "Poland", "Portugal", "Syria", "Ukraine"],
-		info: ["RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
-	},
-	por: {
-		players: "Jogadores",
-		fortune: "Sorte",
-		culture: "Cultura",
-		trivia: "Curiosidades",
-		countries: ["Albânia", "Cabo Verde", "Chechénia", "China", "Egipto", "França", "Alemanha", "Gana", "Grécia", "Irelanda", "Itália", "Polónia", "Portugal", "Síria", "Ucrânia"],
-		info: ["RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
-	},
-	gre: {
-		players: "ΠΑΙΧΤΕΣ",
-		fortune: "ΤΥΧΗΣ",
-		culture: "ΠΟΛΙΤΙΣΜΟΥ",
-		trivia: "Trivia",
-		countries: ["Αλβανία", "Πράσινο Ακρωτήριο", "Τσετσενία", "Κίνα", "Αίγυπτος", "Γαλλία", "Γερμανία", "Γκάνα", "Ελλάδα", "Ιρλανδία", "Ιταλία", "Πολωνία", "Πορτογαλία", "Συρία", "Ουκρανία"],
-		info: ["RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
-	},
-	ukr: {
-		players: "Граче",
-		fortune: "Карта фортуни",
-		culture: "Карти культури",
-		trivia: "Цікавий факт",
-		countries: ["Албанія", " Кабо-Верде", "Чечня", "Китай", "Єгипет", "Франція", "Німеччи", "Гана", "Греція", "Ірланді", "Італія", "Польща", "Португалія", "Сирія", "Україна"],
-		info: ["RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "INSTALL", "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by", "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
+let
+	lang = "eng",
+	player,
+	abrs = ['al', 'cv', 'che', 'ch', 'eg', 'fr', 'ge', 'gh', 'gr', 'ir', 'it', 'pl', 'pt', 'sy', 'uk'],
+	pages = {
+		"lang": "lang-page",
+		"info": "info-page",
+		"players": "player-page",
+		"scores": "score-page",
+		"rules": "rules-page",
+		"fortune": "fortune-page",
+		"dice": "dice-page",
+		"trivia": "trivia-page",
+		"culture": "culture-page",
+		"404": "404-page"
 	}
-
-}
-
 
 
 Array.prototype.shuffle = function () {
@@ -97,17 +35,13 @@ Array.prototype.shuffle = function () {
 }
 
 
-const error = res => {
-	console.log(res)
-	return console.log('error fetching')
+function error() { return console.log('error fetching') }
 
-}
+function appInstaller(ev) { ev.preventDefault(); window.deferredInstall = ev }
 
-
-const navigate = async () => {
+async function navigate() {
 	let path = window.location.pathname.split('/').pop()
 	let page = pages[path] || pages[404];
-
 	let newPage = document.implementation.createHTMLDocument();
 	newPage.write(`<${page} class = 'page'>`);
 	let current = document.querySelector('.page')
@@ -125,27 +59,18 @@ const navigate = async () => {
 	}
 	newPage.write(`</${page}>`)
 	let slots = document.querySelectorAll(`[data-slot]`);
-	console.log(slots)
-	for (let i of slots) {
-		console.log(i.dataset.slot)
-		i.textContent = translate[lang][i.dataset.slot]
-	}
+	for (let i of slots) { i.textContent = translate[lang][i.dataset.slot] }
 };
 
-const clickHandle = event => {
+function clickHandle(event) {
 	event.preventDefault();
 	let { currentTarget, target } = event;
 	currentTarget[target.dataset.event]?.(event)
 	if (target.dataset.page) {
-		window.history.pushState({}, "", `${origin}${target.dataset.page}`);
+		window.history.pushState({}, "", `${target.dataset.page}`);
 		navigate();
 	}
 };
-
-
-
-window.onpopstate = navigate;
-window.onload = navigate;
 
 
 class baseElement extends HTMLElement {
@@ -156,15 +81,13 @@ class baseElement extends HTMLElement {
 	unselect() {
 		let nodes = document.querySelectorAll('.selected')
 		for (let el of nodes) { el.classList.remove('selected') }
-
 	}
 
-	async disconnect() { this.removeEventListener('click', this.handleCLicks) }
+	disconnect() { this.removeEventListener('click', this.handleCLicks) }
 
 	connectedCallback() { this.addEventListener('click', clickHandle); }
 
 	back() { history.back() }
-
 }
 
 
@@ -176,53 +99,87 @@ class langPage extends baseElement {
 		navigator.serviceWorker.controller.postMessage({ type: 'LANGUAGE', msg: lang });
 
 	}
-	async refresh() {
-		navigator.serviceWorker.controller.postMessage({ type: 'REFRESH', });
+}
+
+class infoPage extends baseElement {
+	constructor() { super() }
+
+	refresh() {
+		let items = localStorage.getItem("game")
+		localStorage.setItem("game", JSON.stringify({ players: [] }))
 	}
 
+	update() { navigator.serviceWorker.controller.postMessage({ type: 'UPDATE', }) }
 
+	rules() { window.open(`https://culturecrossover.eu/wp-content/uploads/2022/10/Rules_${lang}.pdf`) }
+
+	install() {
+		if (deferredInstall) return deferredInstall.prompt();
+		else window.open("A2HS_IOS.png")
+	}
+
+	toggleDark() {
+		console.log('toggle dark')
+		let darkMode = localStorage.getItem('darkMode');
+		console.log(darkMode)
+
+		if (darkMode !== "enabled") {
+			document.querySelector('.btn-light_mode').classList.add(".visible")
+			document.querySelector('.btn-dark_mode').classList.add(".hidden")
+			document.body.style.backgroundColor = "var(--bg-dark)"
+			localStorage.setItem('darkMode', "enabled");
+			console.log('to dark')
+		}
+		else {
+			document.querySelector('.btn-dark_mode').classList.add(".visible")
+			document.querySelector('.btn-light_mode').classList.add(".hidden")
+			document.body.style.backgroundColor = "var(--bg-light)";
+			localStorage.setItem('darkMode', null);
+			console.log('to light')
+		}
+	}
 }
+
+
 
 class playerPage extends baseElement {
 	constructor() { super() }
 
 	plus() {
-		let items = localStorage.getItem(gameNumber)
+		let items = localStorage.getItem("game")
 		let game = JSON.parse(items) || { players: [] }
 		let inputs = document.querySelectorAll('input')
 		for (let i = 0, len = inputs.length; i < len; i++) {
 			if (inputs[i].value) game.players[i].name = inputs[i].value;
 		}
 		game.players.push({ name: undefined, badges: 0, visa: 0, ticket: 0 })
-		localStorage.setItem(gameNumber, JSON.stringify(game))
+		localStorage.setItem("game", JSON.stringify(game))
 		document.querySelector('[part = "temp-lit"]').diff();
-
 	}
 
 	minus({ target }) {
 		player = undefined;
-		let items = localStorage.getItem(gameNumber)
+		let items = localStorage.getItem("game")
 		let game = JSON.parse(items)
 		let inputs = document.querySelectorAll('input')
 		for (let i = 0, len = inputs.length; i < len; i++) {
 			if (inputs[i].value) game.players[i].name = inputs[i].value;
 		}
 		game.players.splice(target.dataset.index, 1);
-		localStorage.setItem(gameNumber, JSON.stringify(game))
+		localStorage.setItem("game", JSON.stringify(game))
 		document.querySelector('[part = "temp-lit"]').diff()
 
 	}
 
 	start() {
-		let items = localStorage.getItem(gameNumber)
+		let items = localStorage.getItem("game")
 		let game = JSON.parse(items)
 		let inputs = document.querySelectorAll('input')
 		for (let i = 0, len = inputs.length; i < len; i++) {
 			if (inputs[i].value) game.players[i].name = inputs[i].value;
 			else game.players[i].name = `P${i + 1}`
-
 		}
-		localStorage.setItem(gameNumber, JSON.stringify(game))
+		localStorage.setItem("game", JSON.stringify(game))
 	}
 
 }
@@ -230,23 +187,24 @@ class playerPage extends baseElement {
 
 class scorePage extends baseElement {
 	constructor() { super() }
+
 	select({ target }) {
 		document.querySelectorAll('.selected').forEach(x => x.classList.remove('selected'))
 		target.className = 'selected'
 		player = target.dataset.prop;
 	}
-	plus(event) {
+	plus() {
 
 		let element;
 		if (player == undefined) { element = document.querySelector(".selected"); if (!element) return; player = element.dataset.prop }
 		else element = document.querySelector(`[data-prop = "${player}"]`)
 		let value = parseInt(element.value) + 1;
 		element.value = value;
-		let items = localStorage.getItem(gameNumber)
+		let items = localStorage.getItem("game")
 		let game = JSON.parse(items)
 		let [i, type] = player.split('-');
 		game.players[i][type] = value;
-		localStorage.setItem(gameNumber, JSON.stringify(game))
+		localStorage.setItem("game", JSON.stringify(game))
 		let no = document.querySelector(".selected")
 		no.textContent = value;
 
@@ -258,16 +216,15 @@ class scorePage extends baseElement {
 		let value = parseInt(element.value) - 1;
 		if (value < 0) return
 		element.value = value;
-		let items = localStorage.getItem(gameNumber)
+		let items = localStorage.getItem("game")
 		let game = JSON.parse(items)
 		let [i, type] = player.split('-');
 		game.players[i][type] = value;
-		localStorage.setItem(gameNumber, JSON.stringify(game))
+		localStorage.setItem("game", JSON.stringify(game))
 		let no = document.querySelector(".selected")
 		no.textContent = value;
 	}
 
-	// Dice - Keeping in separate window for now
 	dice() { window.open("https://app.culturecrossover.eu/dice/"); }
 
 }
@@ -374,6 +331,7 @@ class dicePage extends baseElement {
 
 customElements.define('base-element', baseElement)
 customElements.define('lang-page', langPage)
+customElements.define('info-page', infoPage)
 customElements.define('player-page', playerPage)
 customElements.define('score-page', scorePage)
 customElements.define('fortune-page', fortunePage)
@@ -397,12 +355,18 @@ class slotElement extends HTMLElement {
 	}
 }
 
+class infoRender extends slotElement {
+	diff() {
+		let slots = document.querySelectorAll(`[data-islot]`);
+		for (let i of slots) { i.textContent = translate[lang].info[i.dataset.islot] }
+	}
+}
 
 class playerBoard extends slotElement {
 	constructor() { super() }
 
 	diff() {
-		let find = localStorage.getItem(gameNumber);
+		let find = localStorage.getItem("game");
 		let get = JSON.parse(find) || { players: [] }
 		let players = get.players;
 		let frag = document.createElement('template')
@@ -426,7 +390,7 @@ class scoreBoard extends slotElement {
 	constructor() { super() }
 
 	diff() {
-		let find = localStorage.getItem(gameNumber);
+		let find = localStorage.getItem("game");
 		let get = JSON.parse(find) || { players: [] }
 		let players = get.players;
 		let frag = document.createElement('template')
@@ -592,7 +556,6 @@ class cultureCard extends slotElement {
 
 class countryBox extends slotElement {
 	constructor() { super() }
-
 	diff() {
 		console.log('diffing')
 		let frag = document.createElement('template')
@@ -609,6 +572,7 @@ class countryBox extends slotElement {
 	}
 }
 
+customElements.define("info-render", infoRender)
 customElements.define("player-board", playerBoard)
 customElements.define("score-board", scoreBoard)
 customElements.define("country-box", countryBox)
