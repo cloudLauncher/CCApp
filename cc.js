@@ -114,7 +114,7 @@ class infoPage extends baseElement {
 	rules() { window.open(`https://culturecrossover.eu/wp-content/uploads/2022/10/Rules_${lang}.pdf`) }
 
 	install() {
-		if (deferredInstall) return deferredInstall.prompt();
+		if (window.deferredInstall) return window.deferredInstall.prompt();
 		else window.open("A2HS_IOS.png")
 	}
 
