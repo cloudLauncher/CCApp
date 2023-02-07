@@ -12,6 +12,8 @@
 	--tone-red: 16, 83%;
 	--color-bkg: #efefef;
 	--font-1: Isoc;
+	--bg-light: hsl(0, 0%, 91.8%);
+	--bg-dark: rgb(33, 33, 33);
 }
 
 html:focus-within {
@@ -20,7 +22,7 @@ html:focus-within {
 
 html,
 body {
-	background-color: hsl(0, 0%, 91.8%);
+	/*background-color: var(--bg-light);*/
 	min-height: 100%;
 	font-family: var(--font-1), Arial, Helvetica, sans-serif;
 	font-weight: 400;
@@ -28,8 +30,13 @@ body {
 	/* text-rendering: optimizeSpeed; */
 	margin: none;
 	padding: none;
-}
 
+	
+}
+/*
+@media (prefers-color-scheme: dark) { body{background-color: var(--bg-dark);}}
+@media (prefers-color-scheme: light) { body{background-color: var(--bg-light);}}
+*/
 *,
 *::before,
 *::after {
@@ -433,6 +440,10 @@ top-box>.back {
 }
 
 top-box>.cclogo {
+	margin-top: .5rem;
+}
+
+top-box>.toggle {
 	margin-right: .7rem;
 	margin-top: .5rem;
 }
