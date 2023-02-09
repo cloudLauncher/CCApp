@@ -43,22 +43,15 @@ function error() { return console.log('error fetching') }
 async function navigate() {
 	let path = window.location.pathname.split('/').pop()
 	let page = pages[path] || pages[404];
-	let newPage = document.implementation.createHTMLDocument();
-	newPage.write(`<${page} class = 'page'>`);
+	let newPage = Object.assign(document.createElement(page), { classList: "page" })
 	let current = document.querySelector('.page')
 	current?.disconnect();
 	let res = await fetch(`${path}.xml`)
 	if (!res.ok) return error(res)
-	let reader = res.body.getReader();
-	let decoder = new TextDecoder();
-	if (current) current.parentNode.replaceChild(newPage.body.firstChild, current)
-	else document.querySelector('body').appendChild(newPage.body.firstChild)
-	while (true) {
-		const { done, value } = await reader.read();
-		if (done) { reader.releaseLock(); break }
-		newPage.write(decoder.decode(value, { stream: true }))
-	}
-	newPage.write(`</${page}>`)
+	let text = await res.text()
+	newPage.innerHTML = text;
+	if (current) current.parentNode.replaceChild(newPage, current)
+	else document.querySelector('body').appendChild(newPage)
 	let slots = document.querySelectorAll(`[data-slot]`);
 	for (let i of slots) { i.textContent = translate[lang][i.dataset.slot] }
 };
@@ -580,4 +573,6 @@ customElements.define("country-box", countryBox)
 customElements.define("trivia-card", triviaCard)
 customElements.define("fortune-card", fortuneCard)
 customElements.define("culture-card", cultureCard)
+
+
 
