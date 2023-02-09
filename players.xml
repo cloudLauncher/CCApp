@@ -10,9 +10,5 @@
 	</svg>
 </top-box>
 <player-board class='center' part='temp-lit'></player-board>
-<play-box>
-	<svg data-event='start' data-page='scores' class="svg-icon" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<use href="#play" />
-	</svg>
-</play-box>
+
 
