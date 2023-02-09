@@ -22,7 +22,7 @@ let
 		"404": "404-page"
 	}
 
-window.onbeforeinstallprompt = function (ev) { ev.preventDefault(); deferredInstall = ev }
+window.onbeforeinstallprompt = ev => { ev.preventDefault(); deferredInstall = ev }
 
 Array.prototype.shuffle = function () {
 	let input = this;
