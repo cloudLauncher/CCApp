@@ -105,7 +105,7 @@ class infoPage extends baseElement {
 
 	update() { navigator.serviceWorker.controller.postMessage({ type: 'UPDATE', }) }
 
-	rules() { window.open(`https://culturecrossover.eu/wp-content/uploads/2022/10/Rules_${lang}.pdf`) }
+	rules() { window.open(`https://culturecrossover.eu/wp-content/uploads/rules/Rules_${lang}.pdf`) }
 
 	install() {
 		if (deferredInstall) return deferredInstall.prompt();
@@ -433,11 +433,11 @@ class triviaCard extends slotElement {
 
 		let str =
 			`${trivia.question}
-        <button data-event = "select" data-val = ${trivia.correct == "A" ? "correct" : "incorrect"}>${trivia.opt_a}</button
+        <button data-event = "select" data-val = ${trivia.correct == "A" ? "correct" : "incorrect"}>${trivia.opt_a}</button>
         <br>
-        <button data-event = "select" data-val = ${trivia.correct == "B" ? "correct" : "incorrect"}>${trivia.opt_b}</button
+        <button data-event = "select" data-val = ${trivia.correct == "B" ? "correct" : "incorrect"}>${trivia.opt_b}</button>
         <br>
-        <button data-event = "select" data-val = ${trivia.correct == "C" ? "correct" : "incorrect"}>${trivia.opt_c}</button`
+        <button data-event = "select" data-val = ${trivia.correct == "C" ? "correct" : "incorrect"}>${trivia.opt_c}</button>`
 
 		frag.innerHTML = str;
 		this.innerHTML = '';
