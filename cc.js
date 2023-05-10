@@ -186,7 +186,7 @@ class scorePage extends baseElement {
 		let noCulture = ["ger", "ita", "gre"].some(i => i === lang);
 		if (noCulture) {
 			let node = this.querySelector("[data-page='culture']")
-			node.style.opacity = 0;
+			node.style.display = "none"
 			node.style.pointerEvents = "none"
 		}
 		super.connectedCallback();
