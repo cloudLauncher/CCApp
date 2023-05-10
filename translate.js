@@ -7,7 +7,7 @@ const translate = {
         culture: "Culture",
         trivia: "Trivia",
         countries: ["Albania", "Cape verde", "Chechnya", "China", "Egypt", "France", "Germany", "Ghana", "Greece", "Ireland", "Italy", "Poland", "Portugal", "Syria", "Ukraine"],
-        info: ["PLAY", "RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "UPDATE APP", "Check for App updates...", "INSTALL",
+        info: ["PLAY", "RULES", "REFRESH", "Restart all the scores. (not undoable)", "UPDATE APP", "Check for App updates...", "INSTALL<br>(only 1Mb)",
             "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by",
             "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
     },
@@ -47,9 +47,9 @@ const translate = {
         culture: "Cultura",
         trivia: "Curiosidades",
         countries: ["Albânia", "Cabo Verde", "Chechénia", "China", "Egipto", "França", "Alemanha", "Gana", "Grécia", "Irelanda", "Itália", "Polónia", "Portugal", "Síria", "Ucrânia"],
-        info: ["PLAY", "RULES", "REFRESH", "Restart all the scores. Attention, it’s not undoable", "UPDATE APP", "Check for App updates...", "INSTALL",
-            "Install the App on your phone, computer or other device and play the game offline, anytime!", "This App was<br>brought to you by",
-            "and developed by<br>Sugodesign with the<br>collaboration of Steve Mills"]
+        info: ["JOGAR", "REGRAS", "REINICIAR", "Reiniciar todos os resultados.<br>(não é reversível)", "ACTUALIZAR A APP", "Ver se há actualizações...", "INSTALAR<br>(apenas 1Mb)",
+            "Instalar a App no telemóvel, computador ou outro dispositivo para jogar offline, em qualquer momento!", "Esta App foi<br>desenvolvida por",
+            "e programada por<br>Sugodesign com a<br>colaboração de Steve Mills"]
     },
     gre: {
         players: "ΠΑΙΧΤΕΣ",

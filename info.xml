@@ -37,13 +37,13 @@
 
 	<alt-box class='center'>
 	<div class="info">
-		<svg class='svg-icon' data-page="players" style="width:auto; height:110px; margin-top:3rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.25 102.36">
+		<svg class='svg-icon' data-page="players" style="width:auto; height:110px; margin-top:5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.25 102.36">
 				<path d="m102.4 53.799c1.356-25.837-16.75-48.248-41.467-52.995-41.64-6.338-55.825 26.658-58.318 34.177-1.4436 4.353-2.2988 8.88-2.5429 13.461-1.458 28.209 20.276 52.35 48.485 53.842 10.598 0.563 21.11-2.186 30.074-7.866l38.619 1.356s-16.58-12.952-14.851-41.975z" fill="#50bfa0" style="fill:#50bfa0"/>
 				<path d="m42.885 30.15c-0.49201-0.0274-0.99159 0.0775-1.4434 0.31641-0.90354 0.47805-1.4688 1.4154-1.4688 2.4375v34.186c0 1.0222 0.56521 1.9594 1.4688 2.4375 0.90354 0.47783 1.9969 0.41689 2.8418-0.15821l25.107-17.092c0.75482-0.51377 1.207-1.3663 1.207-2.2793 0-0.91297-0.45244-1.7675-1.207-2.2812l-25.107-17.092c-0.42246-0.28766-0.90643-0.44726-1.3984-0.47461z" style="fill:#fff;stroke-width:.90722"/>	
 		</svg>
 		<p class="info__btn-txt" data-islot = "0" >PLAY</p>
 
-			<svg class='svg-icon' data-event="rules"  style="width:auto; height:110px; margin-top:3rem;" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg class='svg-icon' data-event="rules"  style="width:auto; height:110px; margin-top:0rem;" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M21.4143 6.13147L21.4139 6.13149C9.98342 6.7418 1.15002 16.6256 1.74198 28.2014C1.84127 30.0802 2.18879 31.9371 2.77522 33.7226C3.27424 35.2419 4.98288 39.4302 8.67284 42.8818C12.2974 46.2722 17.9048 49.0282 26.4601 47.7218C36.4622 45.7677 43.8046 36.5958 43.2564 26.0091C42.8632 19.3255 44.5587 14.4337 46.397 11.1902C46.8448 10.4001 47.2998 9.70987 47.7331 9.1169L34.4688 9.5872L34.0014 9.60377L33.6074 9.35177C29.9712 7.02601 25.7099 5.90115 21.4143 6.13147Z" fill="white" stroke="#C8C8C8" stroke-width="3" />
 				<path d="M21.213 30.1921C21.213 29.4221 21.312 28.7731 21.51 28.2451C21.73 27.6951 22.005 27.2221 22.335 26.8261C22.665 26.4081 23.006 26.0341 23.358 25.7041C23.732 25.3521 24.084 25.0111 24.414 24.6811C24.744 24.3291 25.008 23.9331 25.206 23.4931C25.426 23.0531 25.536 22.5471 25.536 21.9751C25.536 21.5131 25.459 21.1281 25.305 20.8201C25.151 20.4901 24.931 20.2261 24.645 20.0281C24.381 19.8081 24.062 19.6541 23.688 19.5661C23.336 19.4561 22.962 19.4011 22.566 19.4011C21.972 19.4011 21.411 19.5001 20.883 19.6981C20.377 19.8961 19.904 20.1931 19.464 20.5891C19.244 20.8751 19.09 21.0951 19.002 21.2491C18.936 21.3811 18.914 21.5351 18.936 21.7111L18.738 21.9751L18.507 21.7771L16.197 20.0611C16.703 19.3131 17.264 18.6751 17.88 18.1471C18.518 17.5971 19.233 17.1791 20.025 16.8931C20.839 16.5851 21.752 16.4311 22.764 16.4311C24.018 16.4311 25.107 16.6731 26.031 17.1571C26.977 17.6411 27.703 18.3011 28.209 19.1371C28.737 19.9511 29.001 20.8641 29.001 21.8761C29.001 22.6901 28.891 23.3941 28.671 23.9881C28.451 24.5601 28.165 25.0551 27.813 25.4731C27.461 25.8691 27.087 26.2321 26.691 26.5621C26.317 26.8921 25.954 27.2331 25.602 27.5851C25.272 27.9151 24.997 28.2891 24.777 28.7071C24.557 29.1031 24.447 29.5981 24.447 30.1921V31.8091H21.213V30.1921ZM22.896 38.9041C22.192 38.9041 21.598 38.6621 21.114 38.1781C20.63 37.6941 20.388 37.1111 20.388 36.4291C20.388 35.7471 20.63 35.1641 21.114 34.6801C21.598 34.1961 22.192 33.9541 22.896 33.9541C23.578 33.9541 24.161 34.1961 24.645 34.6801C25.129 35.1641 25.371 35.7471 25.371 36.4291C25.371 37.1111 25.129 37.6941 24.645 38.1781C24.161 38.6621 23.578 38.9041 22.896 38.9041Z" fill="#F15A22" />
 			</svg>
@@ -57,7 +57,7 @@
 					</g>
 				</g>
 			</svg>
-			<p class="info__btn-txt" data-islot = "0">REFRESH<span class="info__description">Restart all the scores. Attention, it’s not undoable</p>
+			<p class="info__btn-txt" data-islot = "0">REFRESH<span class="info__description">Restart all the scores.</br> (not undoable)</p>
 			
 			<svg class='svg-icon' data-event="update"  version="1.1" viewBox="0 0 28.27 26.321" xmlns="http://www.w3.org/2000/svg">
 			<path d="m28.073 15.558a13.018 13.018 0 0 0-18.389-14.023l-9.6838-1.5346s3.7835 3.7835 2.4342 11.033c-1.3494 7.2496 4.154 14.552 11.536 15.214 6.7469 0.74083 12.965-4.1804 14.102-10.689z" style="fill:#5ab99b;stroke-width:.26458"/>
@@ -112,13 +112,17 @@
 				</g>
 			</svg>
 			
-			<p class="info__btn-txt">INSTALL<br>( 2Mb )<br><span class="info__description">Install the App on your phone, computer or other device and play the game offline, anytime!</span></p>
+			<p class="info__btn-txt">INSTALL<br>(only 1Mb)<br><span class="info__description">Install the App on your phone, computer or other device and play the game offline, anytime!</span></p>
 			<div class="info__game">
 				<p>This App was<br>brought to you by</p>
 				<div class="info__logos">
-					<img src="barra_logos-3x3.png" alt="">
+					<img src="barra_logos-3x3.png" alt="Partners logos">
 				</div>
-				<p>and developed by<br>Sugodesign with the<br>collaboration of Steve Mills</p>
+				<p style="font-size: 1.2rem">and developed by<br>Sugodesign with the<br>collaboration of Steve Mills</p>
+				<div class="info__logos">
+					<p style="padding-top: 2rem; margin-bottom: -1rem; font-size: .9rem">PROGRAM</p>
+				</div>
+				<img src="logo-erasmus-w.png" width="160" alt="Erasmus+ logo" style="margin-left: auto; margin-right: auto; mix-blend-mode: multiply;">
 			</div>
 		</div>
 	</alt-box>
