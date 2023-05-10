@@ -182,15 +182,15 @@ class playerPage extends baseElement {
 class scorePage extends baseElement {
 	constructor() { super() }
 	
-	connectedCallback(){
+	connectedCallback() {
 		let noCulture = ["ger", "ita", "gre"].some(i => i === lang);
-		if(noCulture){ 
-			let node = this.querySelector("[data-page="culture"]")
+		if (noCulture) {
+			let node = this.querySelector("[data-page='culture']")
 			node.style.opacity = 0;
 			node.style.pointerEvents = "none"
 		}
 		super.connectedCallback();
-		
+
 	}
 
 	select({ target }) {
